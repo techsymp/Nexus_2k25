@@ -45,7 +45,7 @@ function countdownToEvent(eventDate) {
 }
 
 // Set countdown to a specific date (YYYY, MM (0-based), DD, HH, MM, SS)
-countdownToEvent(new Date(2025, 2, 28, 0, 0, 0).getTime());  // March 15, 2025, 6:00 PM
+countdownToEvent(new Date(2025, 3, 1, 0, 0, 0).getTime());  // March 15, 2025, 6:00 PM
 
 window.onload = function () {
     setTimeout(() => {

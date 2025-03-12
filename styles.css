@@ -1053,3 +1053,10 @@ section {
         transition-delay: .25s;
     }
 }
+@media (max-width: 768px) {
+    .about-card:nth-child(2) { 
+        margin-left: auto; /* Moves it to the right */
+        margin-right: 0;
+        transform: translateX(3%); /* Adjust the position */
+    }
+}

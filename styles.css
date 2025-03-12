@@ -1059,4 +1059,11 @@ section {
         margin-right: 0;
         transform: translateX(3%); /* Adjust the position */
     }
+    
+    
+        .event-description { 
+            font-size: 2.5rem; /* Increases text size */
+            line-height: 3.5rem; /* Improves readability */
+            text-align: justify; /* Keeps text aligned */
+        }
 }
